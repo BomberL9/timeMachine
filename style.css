@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(90deg,#FFD700 0%, #000000 100%);
+}
+
+.header{
+    height: 200px;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.grid2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 400px;
+    height: 224px;
+    border: solid;
+    border-radius: 5px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #191970 0%, #FF4500 100%);
+    color: #E6E6FA;
+    border-bottom: solid grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
